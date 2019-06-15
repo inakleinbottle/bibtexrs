@@ -1,0 +1,9 @@
+[package]
+name = "bibtexrs"
+version = "0.1.0"
+authors = ["inakleinbottle <sam@inakleinbottle.com>"]
+edition = "2018"
+
+[dependencies]
+nom = "4.2.3"
+serde = { version="1.0.92", features=["derive"] }
